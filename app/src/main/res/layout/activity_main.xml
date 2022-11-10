@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+
+    android:background="#1848A8"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:shadowColor="#8a6603"
+        android:text="INICIAR SECCIÓN"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:fontFamily="fantasy" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@drawable/smartphone" />
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/myborde"
+        android:ems="10"
+        android:singleLine="true"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="Ingrese su usuario"
+        />
+
+    <EditText
+        android:id="@+id/txtPasswordd"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:singleLine="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/myborde"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textColorHint="#FFFFFF"
+        android:hint="Ingrese su contraseña"/>
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:radius="40dp"
+        android:text="Iniciar Sección" />
+
+    <Button
+        android:id="@+id/btnCrear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:radius="40dp"
+        android:text="¿No tienes cuenta?, registrate" />
+</androidx.appcompat.widget.LinearLayoutCompat>

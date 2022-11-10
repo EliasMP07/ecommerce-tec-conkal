@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/imagenProducto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/leche_producto"
+            />
+        <TextView
+            android:id="@+id/nombre_producto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del producto"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/imagenProducto"
+            android:layout_toEndOf="@+id/imagenProducto"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/producto_descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet. Cum
+            assumenda quibusluptas et magnam Rem quia iste qui autem eaque et fuga voluptas 33 eius iusto et blanditiis molestiae. Ut quibusdam natus nam consequatur
+            "
+            android:layout_toRightOf="@+id/imagenProducto"
+            android:layout_below="@+id/titulo_producto"
+            android:layout_toEndOf="@+id/imagenProducto"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            ></TextView>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

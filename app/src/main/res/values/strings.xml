@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mi Tienda</string>
+    <string name="title_activity_inicio">ActivityInicio</string>
+    <string name="title_home">Productos</string>
+    <string name="title_dashboard">Mi carrito</string>
+    <string name="title_notifications">Mi cuenta</string>
+</resources>
